@@ -1,0 +1,9 @@
+---
+env:
+  REDIRECT_TO: www.dta.gov.au # 'cf set-env' will overwrite this
+
+path: .
+instances: 1
+memory: 64M
+disk_quota: 64M
+buildpack: staticfile_buildpack
